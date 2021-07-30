@@ -1,0 +1,236 @@
+main{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar section */
+nav{
+    background-color: #423e92 !important;
+    padding: 5px 5rem !important;
+}
+.nav-linked{
+    font-size: small;
+}
+.nav-linked:hover{
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 2px;
+}
+.PMT{
+    font-size: 2rem;
+}
+.account{
+    font-size: small;
+    background-color: coral;
+    border: 1px solid coral !important;
+}
+.account:hover{
+    background-color: rgba(255, 255, 255, 0.171);
+    border: 1px solid rgba(255, 255, 255, 0.171) !important;
+}
+
+
+/* First section */
+.First-section{
+    padding: 5rem;
+}
+.Peace{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.Peace-mass{
+    color: darkblue;
+    font-size: 2.5rem;
+}
+.Transit{
+    color: coral;
+}
+.Peace-mass2{
+    color: darkblue;
+    font-size: 1.5rem;
+}
+.App-Store{
+    margin-left: 8rem;
+}
+.Book-Now{
+    background-color: coral !important;
+    border: 1px solid coral !important;
+    padding: 9px 3.5rem !important;
+}
+
+
+/* Second Section */
+.Second-Section{
+    padding: 5rem;
+}
+.btn-send{
+    background-color: coral !important;
+}
+div.Second-Section-img{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    text-align: center;
+}
+
+/* Third Section */
+.Third-section{
+    padding: 5rem;
+    background-image: linear-gradient(to right, coral, #423e92);
+}
+.check{
+    font-size: 1.5rem;
+    color: lightgray;
+}
+.input-group{
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
+}
+
+/* Forth Section  */
+.Forth-Section {
+    padding: 5rem;
+}
+
+/* Footer Section */
+.Footer-Section{
+    background-color: black;
+    padding: 3rem 5rem;
+}
+.Footer-paragraph{
+    font-size: large;
+}
+.Footer-header-div{
+    margin-left: 3.5rem;
+}
+.Footer-header{
+    margin-top: 1rem;
+    color: coral;
+}
+/* Chart Section */
+.comment{
+    background-color: coral;
+}
+
+
+@media only screen and (max-width: 990px) {
+    /* Navbar section */
+    nav{
+        padding: 5px 1rem !important;
+        position: fixed;
+    }
+    .navbar1{
+        display: none;
+    }
+    .PMT-logo{
+        width: 40px;
+    }
+    .PMT{
+        font-size: 1.5rem;
+    }
+
+    /* Navbar 2 */
+    .Navbar2{
+        background-color: #423e92 !important;
+    }
+    .mainbox{
+        font-size: 24px;
+        cursor: pointer;
+        transition: all 2s;
+    }
+    
+    .sidemenu{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 0px;
+        background-image: linear-gradient(0deg, black, #423e92);
+        z-index: 1;
+        padding-top: 50px;
+        overflow-x: hidden;
+        transition: all 2s;
+    }
+    .sidemenu a{
+        text-decoration: none;
+        display: block;
+    }
+    .sidemenu a:hover{
+        background-color: rgba(255, 255, 255, 0.171);
+        border-radius: 2px;
+        padding-left: 5px;
+    }
+    .closebtn{
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        font-size: 36px;
+        margin-right: 32px;
+
+    }
+
+
+    /* First section */
+    .First-section{
+        padding: 4rem 1rem;
+    }
+    .home_page-image{
+        width: 250px;
+    }
+    .Peace{
+        margin-top: 5rem;
+        margin-left: 0rem;
+        padding-right: 1rem;
+    }
+    .Peace-mass{
+        font-size: 2rem;
+    }
+    .Peace-mass2{
+        font-size: 1.1rem;
+    }
+    .Google-Play{
+        width: 7rem;
+    }
+    .App-Store{
+        margin-left: 3rem;
+        width: 7rem;
+    }
+
+    /* Second Section */
+    .Second-Section{
+        padding: 5rem 1.7rem;
+    }
+    .Second-Section-img{
+        width: 18rem !important;
+    }
+    .card2{
+        margin-top: 1rem;
+    }
+
+    /* Third Section */
+    .Third-section{
+        padding: 5rem 1rem;
+    }
+    .check{
+        font-size: 1rem;
+    }
+
+    /* Forth Section  */
+    .Forth-Section {
+        padding: 5rem 1.7rem;
+        /* width: 20rem; */
+    }
+
+    /* Footer Section */
+    .Footer-Section{
+        padding: 3rem 1.7rem;
+        /* width: 20rem; */
+    }
+    .Peace-Section{
+        font-size: small;
+    }
+    .Footer-Section2{
+     display: grid;
+        grid-template-columns: auto auto;
+    }
+    .Footer-header-div{
+        margin-left: 0rem;
+    }
+}
