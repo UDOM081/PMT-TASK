@@ -66,8 +66,8 @@ nav{
     background-color: coral !important;
 }
 div.Second-Section-img{
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    /* width: 250px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075), 0 6px 20px 0 rgba(0, 0, 0, 0.075) !important;
     text-align: center;
 }
 
@@ -80,9 +80,9 @@ div.Second-Section-img{
     font-size: 1.5rem;
     color: lightgray;
 }
-.input-group{
+.input{
     border-radius: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.075), 0 6px 20px 0 rgba(0, 0, 0, 0.075) 
 }
 
 /* Forth Section  */
@@ -118,8 +118,10 @@ div.Second-Section-img{
 @media only screen and (max-width: 990px) {
     /* Navbar section */
     nav{
-        padding: 5px 1rem !important;
+        padding: 0px 1rem !important;
         position: fixed;
+        background-color: #423e92 !important;
+        height: 50px;
     }
     .navbar1{
         display: none;
@@ -132,13 +134,13 @@ div.Second-Section-img{
     }
 
     /* Navbar 2 */
-    .Navbar2{
+    /* .Navbar2{
         background-color: #423e92 !important;
-    }
+    } */
     .mainbox{
         font-size: 24px;
         cursor: pointer;
-        transition: all 2s;
+        transition: all 0.3s;
     }
     
     .sidemenu{
@@ -150,7 +152,7 @@ div.Second-Section-img{
         z-index: 1;
         padding-top: 50px;
         overflow-x: hidden;
-        transition: all 2s;
+        transition: all 0.3s;
     }
     .sidemenu a{
         text-decoration: none;
@@ -199,7 +201,8 @@ div.Second-Section-img{
         padding: 5rem 0rem;
     }
     .Second-Section-img{
-        width: 18rem !important;
+        width: 100% !important;
+        padding: 0rem 1rem !important;
     }
     .card2{
         margin-top: 1rem;
